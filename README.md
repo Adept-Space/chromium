@@ -14,3 +14,6 @@ For historical reasons, there are some small top level directories. Now the
 guidance is that new top level directories are for product (e.g. Chrome,
 Android WebView, Ash). Even if these products have multiple executables, the
 code should be in subdirectories of the product.
+
+The main contribution of this fork is to *somehow* tie together Chromium with LLVM to run applications.
+
